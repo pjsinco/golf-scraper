@@ -1,0 +1,23 @@
+cur_name = string
+prev_names = []
+tourney_ids = {
+  '2001': 7,
+  '2002': 29,
+  ...
+}
+
+tourney_hist = [
+  '2001': {
+    'name': 'Advil Western Open',
+    'date': 'July 5-8, 2001',
+    'course': 'Cog Hill G&CC',
+    'city': 'Lemont',
+    'state': 'IL',
+    'purse': '3600000',
+    'winner': 
+  },
+  '2002': {
+
+  }
+
+]
