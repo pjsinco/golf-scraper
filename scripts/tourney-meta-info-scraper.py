@@ -21,6 +21,7 @@ tourneys = {}
 #print data['2001'].keys()
 for year in data.keys():
 
+  tourneys_in_year = {}
   tourneys_in_year[year] = {}
 
   for id in data[year].keys():
@@ -33,7 +34,7 @@ for year in data.keys():
       soup = BeautifulSoup(content)
   
       # set tourney properties
-      tourney_data['name'] = data['2001'][id]
+      tourney_data['name'] = data[year][id]
   
       date = soup.select('h3.date')
       if date:
@@ -58,7 +59,7 @@ for year in data.keys():
       
     except Exception, e:
       print str(e)
-      print id
+      print "Error gathing info on " + id
       pass
   
     time.sleep(1)
