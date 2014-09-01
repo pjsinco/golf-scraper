@@ -59,8 +59,7 @@ for year in data.keys():
       
     except Exception, e:
       print str(e)
-      print "Error gathing info on " + id
-      pass
+      print "Error gatheringing info on " + id
   
     time.sleep(1)
 pprint(tourneys)
