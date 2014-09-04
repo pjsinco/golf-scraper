@@ -53,9 +53,16 @@ for id in data['2013-14'].keys():
       tourney[tourney_year]['id'] = tourney_id
       tourney[tourney_year]['name'] = get_tourney_name(tourney_id)
 
+    tourneys_all[id] = tourney
+
   except Exception, e:
     print str(e)
     print "Error gathering info on " + id
 
-  pprint(tourneys_all)
+  finally:
+    time.sleep(1)
+
+with open('../data/tournaments.json', 'w') as outfile:
+    json.dump(tourneys_all, outfile)
+    
 
