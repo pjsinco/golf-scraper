@@ -32,7 +32,8 @@ for year in data.keys():
       response = urllib2.urlopen(url + id)
       content = response.read()
       soup = BeautifulSoup(content)
-  
+      response.close()
+ 
       # set tourney properties
       tourney_data['name'] = data[year][id]
   

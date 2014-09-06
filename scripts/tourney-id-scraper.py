@@ -21,6 +21,7 @@ for year in years:
     response = urllib2.urlopen(url + year)
     content = response.read()
     soup = BeautifulSoup(content)
+    response.close()
 
     # example target link: 
     # http://espn.go.com/golf/leaderboard?tournamentId=1319

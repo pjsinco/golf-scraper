@@ -42,6 +42,7 @@ for id in data['2013-14'].keys():
     response = urllib2.urlopen(url + id)
     content = response.read()
     soup = BeautifulSoup(content)
+    response.close()
 
     prev_years = soup.select('#prev-years > option');
 

@@ -20,9 +20,10 @@ def get_player_info(id):
 
 url = 'http://espn.go.com/golf/players'
 
-response = urllib2.urlopen(url)
-content = response.read()
+page = urllib2.urlopen(url)
+content = page.read()
 soup = BeautifulSoup(content)
+page.close()
 
 player_rows = soup.select('tr[class*="player-"]')
 #print len(players), type(players)
@@ -49,3 +50,4 @@ for player in player_rows:
 
 with open('../data/players.json', 'w') as outfile:
     json.dump(players, outfile)
+
