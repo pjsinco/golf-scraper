@@ -10,7 +10,7 @@ import sys
 from pprint import pprint
 import re
 
-# tr[class*="player-"]
+did_not_get = []
 
 """
 Parses the birthdate and returns as yyyy-mm-dd.
@@ -25,10 +25,6 @@ def parse_birth_date(birthdate):
 Returns a dict of player info
 """
 def get_player_info(id):
-  url = 'http://espn.go.com/golf/player/_/id/'
-  page = urllib2.urlopen(url + id)
-  soup = BeautifulSoup(page)
-
   keys = [
     'country',
     'pga_debut',
@@ -40,58 +36,68 @@ def get_player_info(id):
   ]
   info = dict.fromkeys(keys)
 
-  bio = soup.find(class_='player-bio')
-
-  swings_re = re.compile('Swings:')
-  turned_pro_re = re.compile('Turned Pro:')
-
-  try :
-    info['country']     = \
-      unicode(bio.find(class_='general-info')\
-        .find(class_='first').string)
-  except Exception: 
-    pass
-
-  try: 
-    info['pga_debut']   = \
-      unicode(bio.find(text='PGA Debut').next).strip()
-  except Exception:
-    pass
-
   try:
-    info['college']     = \
-      unicode(bio.find(text='College').next).strip()
-  except Exception:
-    pass
+    url = 'http://espn.go.com/golf/player/_/id/'
+    page = urllib2.urlopen(url + id)
+    soup = BeautifulSoup(page)
+    page.close()
 
-  try: 
-    info['dob']         = parse_birth_date(\
-      unicode(bio.find(text='Birth Date').next).split('(')[0].strip()
-    )
-  except Exception:
-    pass
+    bio = soup.find(class_='player-bio')
 
-  try:
-    info['birthplace']  = \
-      unicode(bio.find(text='Birthplace').next).strip()
-  except Exception:
-    pass
+    swings_re = re.compile('Swings:')
+    turned_pro_re = re.compile('Turned Pro:')
 
-  try:
-    info['swings']      = \
-      unicode(bio.find('li', text=swings_re)\
-        .string.split(': ')[-1]).strip()
-  except Exception:
-    pass
+    try :
+      info['country']     = \
+        unicode(bio.find(class_='general-info')\
+          .find(class_='first').string)
+    except Exception: 
+      pass
 
-  try:
-    info['turned_pro']  = \
-      unicode(bio.find('li', text=turned_pro_re)\
-        .string.split(': ')[-1]).strip()
-  except Exception:
-    pass
+    try: 
+      info['pga_debut']   = \
+        unicode(bio.find(text='PGA Debut').next).strip()
+    except Exception:
+      pass
 
-  return info
+    try:
+      info['college']     = \
+        unicode(bio.find(text='College').next).strip()
+    except Exception:
+      pass
+
+    try: 
+      info['dob']         = parse_birth_date(\
+        unicode(bio.find(text='Birth Date').next).split('(')[0].strip()
+      )
+    except Exception:
+      pass
+
+    try:
+      info['birthplace']  = \
+        unicode(bio.find(text='Birthplace').next).strip()
+    except Exception:
+      pass
+
+    try:
+      info['swings']      = \
+        unicode(bio.find('li', text=swings_re)\
+          .string.split(': ')[-1]).strip()
+    except Exception:
+      pass
+
+    try:
+      info['turned_pro']  = \
+        unicode(bio.find('li', text=turned_pro_re)\
+          .string.split(': ')[-1]).strip()
+    except Exception:
+      pass
+
+  except urllib2.URLError:
+    did_not_get.append(id)
+
+  finally:
+    return info
 
 url = 'http://espn.go.com/golf/players'
 
@@ -107,29 +113,35 @@ players = {}
 
 with open('../data/players.json', 'a') as outfile:
   # delete file contents
-  outfile.truncate()
+  outfile.truncate(0)
 
   # iterate over each player on the page
+  #for i in range(0, 2): # debug
   for player in player_rows:
     player_info = {}
     id_class = player['class']
+    #id_class = player_rows[i]['class'] # debug
     if id_class[-1].startswith('player'):
       id = id_class[-1].split('-')[-1]
       name = player.select('td > a')[0].get_text()
+      #name = player_rows[i].select('td > a')[0].get_text() # debug
       split_names = name.split(', ')
       f_name = split_names[-1]
       l_name = split_names[0]
   
       player_info['f_name'] = f_name
       player_info['l_name'] = l_name
+      player_info['full_name'] = "%s %s" % (f_name, l_name)
       
       
-      players[id] = dict(player_info.items() + \
-        get_player_info(id).items())
+      # player info is inconsistent; let's skip
+      #players[id] = dict(player_info.items() + \
+        #get_player_info(id).items())
   
+      players[id] = player_info
+
     print players[id]
 
+  json.dump(players, outfile, indent=4, separators=(',', ': '))
 
-    time.sleep(1)
-
-  json.dump(players[id], outfile, indent=4, separators=(',', ': '))
+print did_not_get
