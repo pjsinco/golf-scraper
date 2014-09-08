@@ -1,0 +1,266 @@
+{
+    "29": {
+        "date": "Jul 17-20",
+        "course": "\n",
+        "purse": "994500",
+        "name": "British Open"
+    },
+    "53": {
+        "date": "Sep 11-14",
+        "course": "\n",
+        "purse": "450000",
+        "name": "Bank of Boston Classic"
+    },
+    "278": {
+        "date": "Sep 25-25",
+        "course": "\n",
+        "purse": "400000",
+        "name": "Southwest Golf Classic"
+    },
+    "32": {
+        "date": "Jul 24-27",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Buick Open"
+    },
+    "24": {
+        "date": "Jun 12-15",
+        "course": "\n",
+        "purse": "700000",
+        "name": "U.S. Open"
+    },
+    "25": {
+        "date": "Aug 28-31",
+        "course": "\n",
+        "purse": "605912",
+        "name": "Federal Express St. Jude Classic"
+    },
+    "26": {
+        "date": "Jul 3-6",
+        "course": "\n",
+        "purse": "700000",
+        "name": "Canon Sammy Davis, Jr. - Greater Hartford Open"
+    },
+    "27": {
+        "date": "Jul 31-Aug 3",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Western Open"
+    },
+    "20": {
+        "date": "May 15-18",
+        "course": "\n",
+        "purse": "600000",
+        "name": "Colonial National Invitation"
+    },
+    "21": {
+        "date": "May 29-Jun 1",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Kemper Open"
+    },
+    "22": {
+        "date": "May 22-25",
+        "course": "\n",
+        "purse": "577730",
+        "name": "Memorial Tournament"
+    },
+    "23": {
+        "date": "Jun 2-8",
+        "course": "\n",
+        "purse": "600000",
+        "name": "Manufacturers Hanover Westchester Classic"
+    },
+    "44": {
+        "date": "Oct 23-26",
+        "course": "\n",
+        "purse": "1000000",
+        "name": "Vantage Championship"
+    },
+    "45": {
+        "date": "Oct 16-19",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Walt Disney World/Oldsmobile Classic"
+    },
+    "42": {
+        "date": "Oct 2-5",
+        "course": "\n",
+        "purse": "350000",
+        "name": "Southern Open"
+    },
+    "43": {
+        "date": "Apr 30-May 4",
+        "course": "\n",
+        "purse": "1150000",
+        "name": "Panasonic Las Vegas Invitational"
+    },
+    "41": {
+        "date": "Sep 4-7",
+        "course": "\n",
+        "purse": "400000",
+        "name": "B.C. Open"
+    },
+    "1": {
+        "date": "Jan 8-11",
+        "course": "\n",
+        "purse": "500000",
+        "name": "MONY Tournament of Champions"
+    },
+    "3": {
+        "date": "Jan 15-19",
+        "course": "\n",
+        "purse": "600000",
+        "name": "Bob Hope Chrysler Classic"
+    },
+    "2": {
+        "date": "Oct 30-Nov 2",
+        "course": "\n",
+        "purse": "700000",
+        "name": "Seiko/Tucson Match Play Championship"
+    },
+    "5": {
+        "date": "Jan 30-Feb 2",
+        "course": "\n",
+        "purse": "600000",
+        "name": "AT&T; Pebble Beach National Pro-Am"
+    },
+    "4": {
+        "date": "Jan 23-26",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Phoenix Open"
+    },
+    "7": {
+        "date": "Feb 13-16",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Hawaiian Open"
+    },
+    "6": {
+        "date": "Feb 6-9",
+        "course": "\n",
+        "purse": "450000",
+        "name": "Shearson Lehman Brothers/Andy Williams Open"
+    },
+    "9": {
+        "date": "Mar 6-9",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Doral-Eastern Open"
+    },
+    "8": {
+        "date": "Feb 20-23",
+        "course": "\n",
+        "purse": "450000",
+        "name": "Los Angeles Open"
+    },
+    "285": {
+        "date": "Oct 9-12",
+        "course": "\n",
+        "purse": "300000",
+        "name": "Pensacola Open"
+    },
+    "39": {
+        "date": "Jul 17-20",
+        "course": "\n",
+        "purse": "400000",
+        "name": "Hardee's Golf Classic"
+    },
+    "38": {
+        "date": "Jun 26-29",
+        "course": "\n",
+        "purse": "600000",
+        "name": "Canadian Open"
+    },
+    "11": {
+        "date": "Mar 13-16",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Hertz Bay Hill Classic"
+    },
+    "10": {
+        "date": "Feb 27-Mar 2",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Honda Classic"
+    },
+    "13": {
+        "date": "Mar 27-30",
+        "course": "\n",
+        "purse": "900000",
+        "name": "Tournament Players Championship"
+    },
+    "12": {
+        "date": "Mar 20-23",
+        "course": "\n",
+        "purse": "500000",
+        "name": "USF&G; Classic"
+    },
+    "15": {
+        "date": "Apr 10-13",
+        "course": "\n",
+        "purse": "758600",
+        "name": "The Masters"
+    },
+    "14": {
+        "date": "Jun 19-22",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Georgia-Pacific Atlanta Classic"
+    },
+    "17": {
+        "date": "Apr 3-6",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Greater Greensboro Open"
+    },
+    "16": {
+        "date": "Apr 17-20",
+        "course": "\n",
+        "purse": "450000",
+        "name": "Sea Pines Heritage Classic"
+    },
+    "19": {
+        "date": "May 8-11",
+        "course": "\n",
+        "purse": "600000",
+        "name": "Byron Nelson Golf Classic"
+    },
+    "18": {
+        "date": "Apr 23-27",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Houston Open"
+    },
+    "37": {
+        "date": "Sep 18-21",
+        "course": "\n",
+        "purse": "400000",
+        "name": "Greater Milwaukee Open"
+    },
+    "35": {
+        "date": "Aug 21-24",
+        "course": "\n",
+        "purse": "700000",
+        "name": "NEC World Series of Golf"
+    },
+    "34": {
+        "date": "Aug 14-18",
+        "course": "\n",
+        "purse": "1000000",
+        "name": "The International"
+    },
+    "33": {
+        "date": "Aug 7-10",
+        "course": "\n",
+        "purse": "800000",
+        "name": "PGA Championship"
+    },
+    "54": {
+        "date": "Jul 10-13",
+        "course": "\n",
+        "purse": "500000",
+        "name": "Anheuser-Busch Golf Classic"
+    }
+}

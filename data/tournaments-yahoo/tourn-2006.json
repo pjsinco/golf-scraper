@@ -1,0 +1,296 @@
+{
+    "43": {
+        "date": "Oct 12-15",
+        "course": "TPC Summerlin",
+        "purse": "4000000",
+        "name": "Frys.com Open"
+    },
+    "112": {
+        "date": "Sep 22-24",
+        "course": "The K Club - Smurfit Course",
+        "purse": "None",
+        "name": "Ryder Cup"
+    },
+    "174": {
+        "date": "Feb 22-26",
+        "course": "La Costa - South Course",
+        "purse": "7500000",
+        "name": "WGC-Accenture Match Play Championship"
+    },
+    "232": {
+        "date": "Aug 24-27",
+        "course": "Montreux Golf and Country Club",
+        "purse": "3000000",
+        "name": "Reno-Tahoe Open"
+    },
+    "24": {
+        "date": "Jun 15-18",
+        "course": "Winged Foot GC - West Course",
+        "purse": "6250000",
+        "name": "U.S. Open"
+    },
+    "25": {
+        "date": "May 25-28",
+        "course": "TPC Southwind",
+        "purse": "4900000",
+        "name": "FedEx St. Jude Classic"
+    },
+    "26": {
+        "date": "Jun 29-Jul 2",
+        "course": "TPC River Highlands",
+        "purse": "4400000",
+        "name": "Buick Championship"
+    },
+    "27": {
+        "date": "Jul 6-9",
+        "course": "Cog Hill Golf & CC - Dubsdread",
+        "purse": "5000000",
+        "name": "Cialis Western Open"
+    },
+    "20": {
+        "date": "May 18-21",
+        "course": "Colonial Country Club Course",
+        "purse": "6000000",
+        "name": "Bank of America Colonial"
+    },
+    "21": {
+        "date": "Jun 22-27",
+        "course": "TPC Potomac",
+        "purse": "5000000",
+        "name": "Booz Allen Classic"
+    },
+    "22": {
+        "date": "Jun 1-4",
+        "course": "Muirfield Village Golf Course",
+        "purse": "5750000",
+        "name": "Memorial Tournament"
+    },
+    "23": {
+        "date": "Jun 8-11",
+        "course": "Westchester West Course",
+        "purse": "5750000",
+        "name": "Barclays Classic"
+    },
+    "46": {
+        "date": "Nov 2-5",
+        "course": "East Lake Golf Course",
+        "purse": "6500000",
+        "name": "The Tour Championship"
+    },
+    "44": {
+        "date": "Sep 21-24",
+        "course": "La Cantera GC-Resort Course",
+        "purse": "4000000",
+        "name": "Valero Texas Open"
+    },
+    "45": {
+        "date": "Oct 19-22",
+        "course": "Walt Disney Magnolia",
+        "purse": "4400000",
+        "name": "Funai Classic at the Walt Disney World Resort"
+    },
+    "29": {
+        "date": "Jul 20-23",
+        "course": "Royal Liverpool GC",
+        "purse": "7300000",
+        "name": "British Open"
+    },
+    "41": {
+        "date": "Jul 20-23",
+        "course": "Atunyote",
+        "purse": "3000000",
+        "name": "B.C. Open"
+    },
+    "1": {
+        "date": "Jan 5-8",
+        "course": "Kapalua Resort - The Plantation Course",
+        "purse": "5400000",
+        "name": "Mercedes Championships"
+    },
+    "3": {
+        "date": "Jan 18-22",
+        "course": "Arnold Palmer Private Course at PGA West",
+        "purse": "5000000",
+        "name": "Bob Hope Chrysler Classic"
+    },
+    "2": {
+        "date": "Feb 23-26",
+        "course": "Omni Tucson National-Orange/Gold",
+        "purse": "3000000",
+        "name": "Chrysler Classic of Tucson"
+    },
+    "5": {
+        "date": "Feb 9-12",
+        "course": "Pebble Beach",
+        "purse": "5400000",
+        "name": "AT&T; Pebble Beach National Pro-Am"
+    },
+    "4": {
+        "date": "Feb 2-5",
+        "course": "TPC Scottsdale - Stadium Course",
+        "purse": "5200000",
+        "name": "FBR Open"
+    },
+    "7": {
+        "date": "Jan 12-15",
+        "course": "Waialae Course One",
+        "purse": "5100000",
+        "name": "Sony Open in Hawaii"
+    },
+    "6": {
+        "date": "Jan 26-29",
+        "course": "Torrey Pines - South Course",
+        "purse": "5100000",
+        "name": "Buick Invitational"
+    },
+    "9": {
+        "date": "Mar 2-5",
+        "course": "TPC Blue Monster at Doral",
+        "purse": "5500000",
+        "name": "Ford Championship at Doral"
+    },
+    "8": {
+        "date": "Feb 16-19",
+        "course": "Riviera Country Club",
+        "purse": "5100000",
+        "name": "Nissan Open"
+    },
+    "39": {
+        "date": "Jul 13-16",
+        "course": "TPC Deere Run",
+        "purse": "4000000",
+        "name": "John Deere Classic"
+    },
+    "38": {
+        "date": "Sep 7-10",
+        "course": "Hamilton Golf and Country Club",
+        "purse": "5000000",
+        "name": "Bell Canadian Open"
+    },
+    "241": {
+        "date": "Sep 28-Oct 1",
+        "course": "The Grove",
+        "purse": "7500000",
+        "name": "WGC-American Express Championship"
+    },
+    "104": {
+        "date": "Oct 26-29",
+        "course": "Innisbrook - Copperhead Course",
+        "purse": "5300000",
+        "name": "Chrysler Championship"
+    },
+    "11": {
+        "date": "Mar 16-19",
+        "course": "Bay Hill Course",
+        "purse": "5500000",
+        "name": "Bay Hill Invitational"
+    },
+    "10": {
+        "date": "Mar 9-12",
+        "course": "The Country Club at Mirasol-Sunrise",
+        "purse": "5500000",
+        "name": "Honda Classic"
+    },
+    "13": {
+        "date": "Mar 23-26",
+        "course": "THE PLAYERS Stadium Course",
+        "purse": "8000000",
+        "name": "The Players Championship"
+    },
+    "12": {
+        "date": "Apr 27-30",
+        "course": "English Turn",
+        "purse": "6000000",
+        "name": "Zurich Classic of New Orleans"
+    },
+    "15": {
+        "date": "Apr 6-9",
+        "course": "Augusta National",
+        "purse": "7000000",
+        "name": "The Masters"
+    },
+    "14": {
+        "date": "Mar 30-Apr 2",
+        "course": "TPC Sugarloaf",
+        "purse": "5300000",
+        "name": "BellSouth Classic"
+    },
+    "17": {
+        "date": "Oct 5-8",
+        "course": "Forest Oaks",
+        "purse": "5000000",
+        "name": "Chrysler Classic of Greensboro"
+    },
+    "16": {
+        "date": "Apr 13-16",
+        "course": "Harbour Town Golf Links",
+        "purse": "5300000",
+        "name": "Verizon Heritage"
+    },
+    "19": {
+        "date": "May 11-14",
+        "course": "TPC Four Seasons-Cottonwood Valley",
+        "purse": "6200000",
+        "name": "EDS Byron Nelson Championship"
+    },
+    "18": {
+        "date": "Apr 20-23",
+        "course": "Golf Club of Houston - Tournament Course",
+        "purse": "5500000",
+        "name": "Shell Houston Open"
+    },
+    "30": {
+        "date": "Sep 28-Oct 1",
+        "course": "Annandale Golf Club",
+        "purse": "3000000",
+        "name": "Southern Farm Bureau Classic"
+    },
+    "37": {
+        "date": "Jul 27-30",
+        "course": "Brown Deer Park",
+        "purse": "4000000",
+        "name": "U.S. Bank Championship in Milwaukee"
+    },
+    "50": {
+        "date": "Sep 14-17",
+        "course": "Nemacolin-Mystic Rock Course",
+        "purse": "4600000",
+        "name": "84 Lumber Classic"
+    },
+    "35": {
+        "date": "Aug 24-27",
+        "course": "Stockton Seaview Hotel and Golf Club - Bay Course",
+        "purse": "7500000",
+        "name": "WGC-Bridgestone Invitational"
+    },
+    "34": {
+        "date": "Aug 10-13",
+        "course": "Castle Pines",
+        "purse": "5500000",
+        "name": "The International"
+    },
+    "33": {
+        "date": "Aug 17-20",
+        "course": "Medinah CC - Course 3",
+        "purse": "6500000",
+        "name": "PGA Championship"
+    },
+    "32": {
+        "date": "Aug 3-6",
+        "course": "Warwick Hills",
+        "purse": "4600000",
+        "name": "Buick Open"
+    },
+    "290": {
+        "date": "May 4-7",
+        "course": "Quail Hollow Club",
+        "purse": "6000000",
+        "name": "Wachovia Championship"
+    },
+    "291": {
+        "date": "Sep 1-4",
+        "course": "TPC Boston",
+        "purse": "5500000",
+        "name": "Deutsche Bank Championship"
+    }
+}
