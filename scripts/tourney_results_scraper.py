@@ -1,44 +1,24 @@
-from bs4 import BeautifulSoup
-import urllib2
+import yahoo_scrape as ys
 import json
-from time import sleep
 from pprint import pprint
-
-base_url = 'http://espn.go.com/golf/leaderboard?tournamentId='
-
-def get_soup(url, param):
-  soup = None
-  try:
-    page = urllib2.urlopen(url + str(param))
-  except urllib2.URLError:
-    return soup
-
-  return BeautifulSoup(page)
-
-def has_results(soup):
-  return len(soup.find(id='regular-leaderboard').contents) > 1
-
-def is_marked_complete(soup):
-  return soup.find(text='Complete')
 
 if __name__ == '__main__':
 
-  #load up all the tourn ids
-  f = open('../data/tourn-ids.json')
-  data = json.load(f) #data is a dict
-
+  scraper = ys.YahooPGAScraper()
   
-  for id in data['2013-14']:
-    soup = get_soup(base_url, id)
+  #get results for all 1978 tournaments
+  infile = open('../data/tournaments-yahoo/tourn-1978.json')
+  data = json.load(infile)
+  for key in data.keys():
+    outfile = open(
+      '../data/tourn-1978/tourn-1978-' + key + '.json', 'w+')
+    results = scraper.get_tourn_results('1978', key)
+    scraper.write_json_to_file(results, outfile)
 
-    if has_results(soup) and is_marked_complete(soup, id):
-      pass
-    #print id, data['2013-14'][id]
-  
-    sleep(1)
-   
+  #pprint(scraper.get_tourn_results('1977', '4'))
 
-  #if has_results(soup):
-    
+  # has 'projected cut' row
+  #pprint(scraper.get_tourn_results('1977', '33')) 
 
-
+  #pprint(scraper.get_tourn_results('1977', '6'))  #incomplete results
+  #pprint(scraper.get_tourn_results('1977', '45')) #empty results

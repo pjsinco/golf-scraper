@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from bs4 import element
 import urllib2
-from time import sleep
 import re
 from pprint import pprint
 import json
@@ -38,6 +37,10 @@ class YahooPGAScraper:
   Returns the tournament results as a dict
   """
   def get_tourn_results(self, year, t_id):
+    # give the user some feedback
+    print('Processing %s, id #%s...' %
+      (str(year), str(t_id)))
+
     url = '%s/leaderboard/%s/%s' % \
       (self.url_base, str(year), str(t_id))
 
@@ -51,17 +54,21 @@ class YahooPGAScraper:
     # find out what fields are showing in on this results page
     fields_avail = []
     
-    #get header row; sometimes there are 2--we want the last
+    #get header row; sometimes there are two--we want the last
     t_headers = soup\
       .find(id='leaderboardtable')\
       .find('table')\
       .find('thead')\
       .find_all('tr')[-1]
 
+    # grab each header field; we will iterate through these
     for t_header in t_headers:
       if type(t_header) is element.Tag:
         fields_avail.append(unicode(t_header.a.string))
 
+    pprint(fields_avail)
+
+    # these are the rows of the tournament results
     rows = soup\
       .find(id='leaderboard')\
       .find(id='leaderboardtable')\
@@ -69,20 +76,28 @@ class YahooPGAScraper:
       .find('tbody')\
       .find_all('tr')
 
+    # nothing there, so let's get out of here
     if len(rows) == 0:
       return results
 
+    # ok, let's go through the rows one by one
     for i in range(0, len(rows)):
       player = {}
       fields = rows[i].find_all('td')
+      if len(fields) == 0: #this row is unusual
+        continue
       for j in range(0, len(fields_avail)):
+        # we need to clip the $ off the purse
         if fields_avail[j] == 'Purse':
           player[fields_avail[j]] =\
             unicode(fields[j].string).strip().split('$')[-1]
+        # we need to grab the player's id
         elif fields_avail[j] == 'Name':
           player[fields_avail[j]] = unicode(fields[j].a.string).strip()
-          player[u'player_id'] = unicode(fields[j].a['href'].split('/')[-1]) 
+          player[u'player_id'] = \
+            unicode(fields[j].a['href'].split('/')[-1]) 
         else:
+         
           player[fields_avail[j]] = unicode(fields[j].string).strip()
 
       results[i] = player
@@ -165,16 +180,9 @@ if __name__ == '__main__':
 #    scraper.write_json_to_file(schedule, f)
 #    f.close()
 
-  infile = open('../data/tournaments-yahoo/tourn-1977.json')
-  data = json.load(infile)
-  for key in data.keys():
-    outfile = open(
-      '../data/tourn-1977/tourn-1977-' + key + '.json', 'w+')
-    scraper.\
-      write_json_to_file(\
-        scraper.get_tourn_results('1977', key), outfile\
-      )
+
   
   #pprint(scraper.get_tourn_results('1977', '4'))
+  pprint(scraper.get_tourn_results('1977', '33')) # has 'projected cut' row
   #pprint(scraper.get_tourn_results('1977', '6'))  #incomplete results
   #pprint(scraper.get_tourn_results('1977', '45')) #empty results
