@@ -1,0 +1,312 @@
+{
+    "0": {
+        "Name": "Masaji Kusakabe",
+        "Strokes": "306",
+        "Purse": "3500",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "79",
+        "4": "78",
+        "player_id": "5592"
+    },
+    "1": {
+        "Name": "Buddy Whitten",
+        "Strokes": "303",
+        "Purse": "3600",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "79",
+        "4": "71",
+        "player_id": "816"
+    },
+    "2": {
+        "Name": "Stewart Ginn",
+        "Strokes": "296",
+        "Purse": "3700",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "82",
+        "4": "70",
+        "player_id": "3187"
+    },
+    "3": {
+        "Name": "Scott Simpson",
+        "Strokes": "294",
+        "Purse": "3800",
+        "Time (ET)": "-",
+        "3": "77",
+        "2": "72",
+        "4": "75",
+        "player_id": "18"
+    },
+    "4": {
+        "Name": "Ken Brown",
+        "Strokes": "293",
+        "Purse": "3900",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "75",
+        "4": "73",
+        "player_id": "5272"
+    },
+    "5": {
+        "Name": "Curtis Strange",
+        "Strokes": "291",
+        "Purse": "4000",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "70",
+        "4": "73",
+        "player_id": "50"
+    },
+    "6": {
+        "Name": "Mark O'Meara",
+        "Strokes": "291",
+        "Purse": "-",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "74",
+        "4": "70",
+        "player_id": "11"
+    },
+    "7": {
+        "Name": "Doug Tewell",
+        "Strokes": "290",
+        "Purse": "4300",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "69",
+        "4": "70",
+        "player_id": "229"
+    },
+    "8": {
+        "Name": "John Mahaffey",
+        "Strokes": "290",
+        "Purse": "4300",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "69",
+        "4": "75",
+        "player_id": "121"
+    },
+    "9": {
+        "Name": "Sandy Lyle",
+        "Strokes": "289",
+        "Purse": "4850",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "68",
+        "4": "72",
+        "player_id": "173"
+    },
+    "10": {
+        "Name": "Jim Colbert",
+        "Strokes": "289",
+        "Purse": "4850",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "71",
+        "4": "71",
+        "player_id": "789"
+    },
+    "11": {
+        "Name": "Denis Watson",
+        "Strokes": "287",
+        "Purse": "5750",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "72",
+        "4": "69",
+        "player_id": "336"
+    },
+    "12": {
+        "Name": "Jack Newton",
+        "Strokes": "287",
+        "Purse": "5750",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "76",
+        "4": "69",
+        "player_id": "4996"
+    },
+    "13": {
+        "Name": "Howard Twitty",
+        "Strokes": "286",
+        "Purse": "6750",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "67",
+        "4": "73",
+        "player_id": "185"
+    },
+    "14": {
+        "Name": "Norio Suzuki",
+        "Strokes": "286",
+        "Purse": "6750",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "72",
+        "4": "71",
+        "player_id": "5530"
+    },
+    "15": {
+        "Name": "Larry Nelson",
+        "Strokes": "284",
+        "Purse": "7500",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "73",
+        "4": "70",
+        "player_id": "137"
+    },
+    "16": {
+        "Name": "George Burns",
+        "Strokes": "282",
+        "Purse": "8250",
+        "Time (ET)": "-",
+        "3": "67",
+        "2": "72",
+        "4": "72",
+        "player_id": "420"
+    },
+    "17": {
+        "Name": "Isao Aoki",
+        "Strokes": "282",
+        "Purse": "8250",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "71",
+        "4": "69",
+        "player_id": "761"
+    },
+    "18": {
+        "Name": "Gary Player",
+        "Strokes": "281",
+        "Purse": "10000",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "70",
+        "4": "73",
+        "player_id": "306"
+    },
+    "19": {
+        "Name": "Bruce Lietzke",
+        "Strokes": "281",
+        "Purse": "10000",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "68",
+        "4": "71",
+        "player_id": "71"
+    },
+    "20": {
+        "Name": "Andy Bean",
+        "Strokes": "281",
+        "Purse": "10000",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "69",
+        "4": "70",
+        "player_id": "258"
+    },
+    "21": {
+        "Name": "Bob Gilder",
+        "Strokes": "279",
+        "Purse": "12000",
+        "Time (ET)": "-",
+        "3": "68",
+        "2": "70",
+        "4": "72",
+        "player_id": "166"
+    },
+    "22": {
+        "Name": "Craig Stadler",
+        "Strokes": "278",
+        "Purse": "13000",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "68",
+        "4": "73",
+        "player_id": "46"
+    },
+    "23": {
+        "Name": "Mike Reid",
+        "Strokes": "275",
+        "Purse": "15000",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "70",
+        "4": "68",
+        "player_id": "140"
+    },
+    "24": {
+        "Name": "Lon Hinkle",
+        "Strokes": "275",
+        "Purse": "15000",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "69",
+        "4": "69",
+        "player_id": "449"
+    },
+    "25": {
+        "Name": "Ben Crenshaw",
+        "Strokes": "275",
+        "Purse": "15000",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "69",
+        "4": "69",
+        "player_id": "24"
+    },
+    "26": {
+        "Name": "Lee Trevino",
+        "Strokes": "274",
+        "Purse": "19600",
+        "Time (ET)": "-",
+        "3": "67",
+        "2": "69",
+        "4": "69",
+        "player_id": "784"
+    },
+    "27": {
+        "Name": "Hale Irwin",
+        "Strokes": "274",
+        "Purse": "19600",
+        "Time (ET)": "-",
+        "3": "66",
+        "2": "74",
+        "4": "66",
+        "player_id": "96"
+    },
+    "28": {
+        "Name": "Jerry Pate",
+        "Strokes": "273",
+        "Purse": "34500",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "64",
+        "4": "67",
+        "player_id": "675"
+    },
+    "29": {
+        "Name": "Raymond Floyd",
+        "Strokes": "272",
+        "Purse": "55000",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "68",
+        "4": "65",
+        "player_id": "209"
+    },
+    "30": {
+        "Name": "Tom Watson",
+        "Strokes": "270",
+        "Purse": "100000",
+        "Time (ET)": "-",
+        "3": "65",
+        "2": "75",
+        "4": "65",
+        "player_id": "59"
+    }
+}

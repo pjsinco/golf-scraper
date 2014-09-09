@@ -4,6 +4,7 @@ import urllib2
 import re
 from pprint import pprint
 import json
+from sys import exit
 
 class YahooPGAScraper:
 
@@ -24,6 +25,9 @@ class YahooPGAScraper:
 
     return soup
 
+
+  def process_year(self, year):
+    pass
 
   """
   Returns the passed string with a replacement
@@ -64,9 +68,10 @@ class YahooPGAScraper:
     # grab each header field; we will iterate through these
     for t_header in t_headers:
       if type(t_header) is element.Tag:
-        fields_avail.append(unicode(t_header.a.string))
-
-    pprint(fields_avail)
+        if t_header.a:
+          fields_avail.append(unicode(t_header.a.string))
+        elif t_header.string:
+          fields_avail.append(unicode(t_header.string))
 
     # these are the rows of the tournament results
     rows = soup\
@@ -90,7 +95,10 @@ class YahooPGAScraper:
         # we need to clip the $ off the purse
         if fields_avail[j] == 'Purse':
           player[fields_avail[j]] =\
-            unicode(fields[j].string).strip().split('$')[-1]
+            ''.join( unicode(fields[j].string)\
+              .strip()\
+              .split('$')[-1]\
+              .split(','))
         # we need to grab the player's id
         elif fields_avail[j] == 'Name':
           player[fields_avail[j]] = unicode(fields[j].a.string).strip()
@@ -167,22 +175,3 @@ class YahooPGAScraper:
     json.dump(
       data, outfile, indent=4, separators=(',', ': ')
     )
-    
-
-
-
-if __name__ == '__main__':
-  scraper = YahooPGAScraper()
-#  for year in range(1977, 2015):
-#    schedule = scraper.get_schedule(year)
-#    f = open('../data/tournaments-yahoo/tourn-' + \
-#      str(year) + '.json', 'w+')
-#    scraper.write_json_to_file(schedule, f)
-#    f.close()
-
-
-  
-  #pprint(scraper.get_tourn_results('1977', '4'))
-  pprint(scraper.get_tourn_results('1977', '33')) # has 'projected cut' row
-  #pprint(scraper.get_tourn_results('1977', '6'))  #incomplete results
-  #pprint(scraper.get_tourn_results('1977', '45')) #empty results

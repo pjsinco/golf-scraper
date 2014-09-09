@@ -1,0 +1,712 @@
+{
+    "0": {
+        "Name": "Bob Zender",
+        "Strokes": "302",
+        "Purse": "594",
+        "Time (ET)": "-",
+        "3": "78",
+        "2": "73",
+        "4": "79",
+        "player_id": "5563"
+    },
+    "1": {
+        "Name": "Vance Heafner",
+        "Strokes": "301",
+        "Purse": "603",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "74",
+        "4": "81",
+        "player_id": "1029"
+    },
+    "2": {
+        "Name": "George Cadle",
+        "Strokes": "301",
+        "Purse": "603",
+        "Time (ET)": "-",
+        "3": "76",
+        "2": "70",
+        "4": "81",
+        "player_id": "5162"
+    },
+    "3": {
+        "Name": "Jack Renner",
+        "Strokes": "295",
+        "Purse": "612",
+        "Time (ET)": "-",
+        "3": "77",
+        "2": "68",
+        "4": "72",
+        "player_id": "620"
+    },
+    "4": {
+        "Name": "Bob Wynn",
+        "Strokes": "294",
+        "Purse": "624",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "74",
+        "4": "76",
+        "player_id": "824"
+    },
+    "5": {
+        "Name": "D.A. Weibring",
+        "Strokes": "294",
+        "Purse": "624",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "74",
+        "4": "81",
+        "player_id": "37"
+    },
+    "6": {
+        "Name": "Pat McGowan",
+        "Strokes": "294",
+        "Purse": "624",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "75",
+        "4": "75",
+        "player_id": "4180"
+    },
+    "7": {
+        "Name": "Orville Moody",
+        "Strokes": "293",
+        "Purse": "642",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "68",
+        "4": "75",
+        "player_id": "841"
+    },
+    "8": {
+        "Name": "Fred Marti",
+        "Strokes": "293",
+        "Purse": "642",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "71",
+        "4": "72",
+        "player_id": "5454"
+    },
+    "9": {
+        "Name": "Bob Byman",
+        "Strokes": "293",
+        "Purse": "642",
+        "Time (ET)": "-",
+        "3": "68",
+        "2": "73",
+        "4": "80",
+        "player_id": "5322"
+    },
+    "10": {
+        "Name": "John Schroeder",
+        "Strokes": "292",
+        "Purse": "669",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "73",
+        "4": "78",
+        "player_id": "809"
+    },
+    "11": {
+        "Name": "Andy North",
+        "Strokes": "292",
+        "Purse": "669",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "73",
+        "4": "75",
+        "player_id": "606"
+    },
+    "12": {
+        "Name": "John Lister",
+        "Strokes": "292",
+        "Purse": "669",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "74",
+        "4": "73",
+        "player_id": "5490"
+    },
+    "13": {
+        "Name": "Mark Hayes",
+        "Strokes": "292",
+        "Purse": "669",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "74",
+        "4": "76",
+        "player_id": "421"
+    },
+    "14": {
+        "Name": "Lou Graham",
+        "Strokes": "292",
+        "Purse": "669",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "71",
+        "4": "75",
+        "player_id": "861"
+    },
+    "15": {
+        "Name": "Dale Douglass",
+        "Strokes": "292",
+        "Purse": "669",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "74",
+        "4": "72",
+        "player_id": "806"
+    },
+    "16": {
+        "Name": "Curtis Strange",
+        "Strokes": "291",
+        "Purse": "710",
+        "Time (ET)": "-",
+        "3": "76",
+        "2": "69",
+        "4": "75",
+        "player_id": "50"
+    },
+    "17": {
+        "Name": "Dave Stockton Sr.",
+        "Strokes": "291",
+        "Purse": "710",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "70",
+        "4": "75",
+        "player_id": "773"
+    },
+    "18": {
+        "Name": "Graham Marsh",
+        "Strokes": "291",
+        "Purse": "710",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "74",
+        "4": "74",
+        "player_id": "772"
+    },
+    "19": {
+        "Name": "Barry Jaeckel",
+        "Strokes": "291",
+        "Purse": "710",
+        "Time (ET)": "-",
+        "3": "76",
+        "2": "72",
+        "4": "73",
+        "player_id": "453"
+    },
+    "20": {
+        "Name": "Lon Hinkle",
+        "Strokes": "291",
+        "Purse": "710",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "76",
+        "4": "74",
+        "player_id": "449"
+    },
+    "21": {
+        "Name": "Leonard Thompson",
+        "Strokes": "290",
+        "Purse": "858",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "69",
+        "4": "74",
+        "player_id": "803"
+    },
+    "22": {
+        "Name": "Doug Tewell",
+        "Strokes": "290",
+        "Purse": "858",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "72",
+        "4": "79",
+        "player_id": "229"
+    },
+    "23": {
+        "Name": "Mike Sullivan",
+        "Strokes": "290",
+        "Purse": "858",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "69",
+        "4": "76",
+        "player_id": "114"
+    },
+    "24": {
+        "Name": "John Fought",
+        "Strokes": "290",
+        "Purse": "858",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "70",
+        "4": "73",
+        "player_id": "5261"
+    },
+    "25": {
+        "Name": "Ed Fiori",
+        "Strokes": "290",
+        "Purse": "858",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "74",
+        "4": "72",
+        "player_id": "150"
+    },
+    "26": {
+        "Name": "Julius Boros",
+        "Strokes": "290",
+        "Purse": "858",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "70",
+        "4": "72",
+        "player_id": "6735"
+    },
+    "27": {
+        "Name": "Kermit Zarley",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "69",
+        "4": "74",
+        "player_id": "798"
+    },
+    "28": {
+        "Name": "Jim Simons",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "73",
+        "4": "73",
+        "player_id": "4943"
+    },
+    "29": {
+        "Name": "Eddie Pearce",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "72",
+        "4": "73",
+        "player_id": "4346"
+    },
+    "30": {
+        "Name": "Arnold Palmer",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "70",
+        "4": "75",
+        "player_id": "224"
+    },
+    "31": {
+        "Name": "Bruce Lietzke",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "75",
+        "4": "73",
+        "player_id": "71"
+    },
+    "32": {
+        "Name": "Keith Fergus",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "74",
+        "4": "74",
+        "player_id": "131"
+    },
+    "33": {
+        "Name": "Wally Armstrong",
+        "Strokes": "289",
+        "Purse": "1230",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "74",
+        "4": "72",
+        "player_id": "5390"
+    },
+    "34": {
+        "Name": "Howard Twitty",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "72",
+        "4": "69",
+        "player_id": "185"
+    },
+    "35": {
+        "Name": "Wayne Levi",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "72",
+        "4": "70",
+        "player_id": "187"
+    },
+    "36": {
+        "Name": "Hale Irwin",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "72",
+        "4": "73",
+        "player_id": "96"
+    },
+    "37": {
+        "Name": "Mike Hill",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "77",
+        "2": "72",
+        "4": "70",
+        "player_id": "781"
+    },
+    "38": {
+        "Name": "Phil Hancock",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "78",
+        "2": "72",
+        "4": "70",
+        "player_id": "1286"
+    },
+    "39": {
+        "Name": "Ben Crenshaw",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "72",
+        "4": "73",
+        "player_id": "24"
+    },
+    "40": {
+        "Name": "Charles Coody",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "68",
+        "2": "70",
+        "4": "78",
+        "player_id": "312"
+    },
+    "41": {
+        "Name": "Jim Colbert",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "72",
+        "4": "75",
+        "player_id": "789"
+    },
+    "42": {
+        "Name": "Rex Caldwell",
+        "Strokes": "288",
+        "Purse": "1787",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "73",
+        "4": "73",
+        "player_id": "479"
+    },
+    "43": {
+        "Name": "Tim Simpson",
+        "Strokes": "287",
+        "Purse": "2393",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "73",
+        "4": "72",
+        "player_id": "256"
+    },
+    "44": {
+        "Name": "Mike Reid",
+        "Strokes": "287",
+        "Purse": "2393",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "67",
+        "4": "72",
+        "player_id": "140"
+    },
+    "45": {
+        "Name": "Victor Regalado",
+        "Strokes": "287",
+        "Purse": "2393",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "69",
+        "4": "75",
+        "player_id": "4947"
+    },
+    "46": {
+        "Name": "Gary Koch",
+        "Strokes": "287",
+        "Purse": "2393",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "71",
+        "4": "75",
+        "player_id": "686"
+    },
+    "47": {
+        "Name": "Bobby Walzel",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "67",
+        "4": "72",
+        "player_id": "3761"
+    },
+    "48": {
+        "Name": "Lee Trevino",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "67",
+        "4": "75",
+        "player_id": "784"
+    },
+    "49": {
+        "Name": "Tom Purtzer",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "73",
+        "4": "73",
+        "player_id": "139"
+    },
+    "50": {
+        "Name": "Jack Newton",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "70",
+        "4": "73",
+        "player_id": "4996"
+    },
+    "51": {
+        "Name": "Larry Nelson",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "69",
+        "4": "69",
+        "player_id": "137"
+    },
+    "52": {
+        "Name": "Allen Miller",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "70",
+        "2": "71",
+        "4": "73",
+        "player_id": "1138"
+    },
+    "53": {
+        "Name": "Gene Littler",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "73",
+        "4": "72",
+        "player_id": "855"
+    },
+    "54": {
+        "Name": "Miller Barber",
+        "Strokes": "286",
+        "Purse": "3795",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "73",
+        "4": "72",
+        "player_id": "825"
+    },
+    "55": {
+        "Name": "Craig Stadler",
+        "Strokes": "285",
+        "Purse": "5400",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "70",
+        "4": "71",
+        "player_id": "46"
+    },
+    "56": {
+        "Name": "Bob Gilder",
+        "Strokes": "285",
+        "Purse": "5400",
+        "Time (ET)": "-",
+        "3": "75",
+        "2": "70",
+        "4": "69",
+        "player_id": "166"
+    },
+    "57": {
+        "Name": "Rod Curl",
+        "Strokes": "285",
+        "Purse": "5400",
+        "Time (ET)": "-",
+        "3": "73",
+        "2": "70",
+        "4": "69",
+        "player_id": "361"
+    },
+    "58": {
+        "Name": "Jerry Pate",
+        "Strokes": "284",
+        "Purse": "6900",
+        "Time (ET)": "-",
+        "3": "76",
+        "2": "72",
+        "4": "69",
+        "player_id": "675"
+    },
+    "59": {
+        "Name": "Joe Inman",
+        "Strokes": "284",
+        "Purse": "6900",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "70",
+        "4": "70",
+        "player_id": "337"
+    },
+    "60": {
+        "Name": "Hubert Green",
+        "Strokes": "284",
+        "Purse": "6900",
+        "Time (ET)": "-",
+        "3": "67",
+        "2": "71",
+        "4": "75",
+        "player_id": "672"
+    },
+    "61": {
+        "Name": "Lanny Wadkins",
+        "Strokes": "282",
+        "Purse": "8400",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "67",
+        "4": "75",
+        "player_id": "161"
+    },
+    "62": {
+        "Name": "Don January",
+        "Strokes": "282",
+        "Purse": "8400",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "70",
+        "4": "71",
+        "player_id": "836"
+    },
+    "63": {
+        "Name": "Bob Murphy",
+        "Strokes": "281",
+        "Purse": "9675",
+        "Time (ET)": "-",
+        "3": "74",
+        "2": "67",
+        "4": "69",
+        "player_id": "783"
+    },
+    "64": {
+        "Name": "George Burns",
+        "Strokes": "281",
+        "Purse": "9675",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "72",
+        "4": "70",
+        "player_id": "420"
+    },
+    "65": {
+        "Name": "Bill Rogers",
+        "Strokes": "280",
+        "Purse": "11400",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "68",
+        "4": "71",
+        "player_id": "3605"
+    },
+    "66": {
+        "Name": "Raymond Floyd",
+        "Strokes": "280",
+        "Purse": "11400",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "68",
+        "4": "71",
+        "player_id": "209"
+    },
+    "67": {
+        "Name": "Mike Morley",
+        "Strokes": "279",
+        "Purse": "17400",
+        "Time (ET)": "-",
+        "3": "72",
+        "2": "68",
+        "4": "70",
+        "player_id": "5292"
+    },
+    "68": {
+        "Name": "Tom Kite",
+        "Strokes": "279",
+        "Purse": "17400",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "68",
+        "4": "71",
+        "player_id": "105"
+    },
+    "69": {
+        "Name": "Ed Sneed",
+        "Strokes": "275",
+        "Purse": "32400",
+        "Time (ET)": "-",
+        "3": "71",
+        "2": "69",
+        "4": "66",
+        "player_id": "876"
+    },
+    "70": {
+        "Name": "Tom Watson",
+        "Strokes": "270",
+        "Purse": "54000",
+        "Time (ET)": "-",
+        "3": "69",
+        "2": "65",
+        "4": "71",
+        "player_id": "59"
+    }
+}
