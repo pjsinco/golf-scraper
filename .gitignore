@@ -3,3 +3,4 @@
 *.swm
 *.swn
 ignoreable/*
+data/tour*/*
