@@ -8,30 +8,33 @@ from pprint import pprint
 def main():
   scraper = ys.YahooPGAScraper()
   
-  #get results for all 1978 tournaments
-  infile = open('../data/tournaments-yahoo/tourn-1977.json')
+  #get results for all 1980 tournaments
+  infile = open('../data/tournaments-yahoo/tourn-1980.json')
   data = json.load(infile)
 
   for key in data.keys():
-    results = scraper.get_tourn_results('1977', key)
+    results = scraper.get_tourn_results('1980', key)
     pprint(results)
 
-    if results:
-      with open(
-          '/Users/pj/Sites/golf-scraper/data/tourn-1977/tourn-1977-' + 
-          key + '.csv', 'w+'
-        ) as csv_file:
+    with open(
+        '/Users/pj/Sites/golf-scraper/data/tourn-1980/tourn-1980-' + 
+        key + '.csv', 'w+'
+      ) as csv_file:
+
+      if results:
         fieldnames = results[0].keys()
-        csv_writer = csv.DictWriter(csv_file, fieldnames)
+      else:
+        fieldnames = []
 
-        # write header row
-        csv_writer.writerow(dict((fn, fn) for fn in fieldnames))
+      csv_writer = csv.DictWriter(csv_file, fieldnames)
 
-        for row in results:
-          csv_writer.writerow(row)
+      # write header row
+      csv_writer.writerow(dict((fn, fn) for fn in fieldnames))
 
-        time.sleep(1)
+      for row in results:
+        csv_writer.writerow(row)
 
+    time.sleep(1)
   #pprint(scraper.get_tourn_results('1978', '45')) # tricky
 
   #pprint(scraper.get_tourn_results('1977', '4'))
