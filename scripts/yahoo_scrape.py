@@ -5,6 +5,7 @@ import re
 from pprint import pprint
 import json
 from sys import exit
+import csv
 
 class YahooPGAScraper:
 
@@ -38,7 +39,8 @@ class YahooPGAScraper:
 
 
   """
-  Returns the tournament results as a dict
+  Returns the tournament results as a list, 
+  with a dictionary for each row
   """
   def get_tourn_results(self, year, t_id):
     # give the user some feedback
@@ -48,7 +50,7 @@ class YahooPGAScraper:
     url = '%s/leaderboard/%s/%s' % \
       (self.url_base, str(year), str(t_id))
 
-    results = {}
+    results = []
 
     try:
       soup = self.get_soup(url)      
@@ -108,7 +110,7 @@ class YahooPGAScraper:
          
           player[fields_avail[j]] = unicode(fields[j].string).strip()
 
-      results[i] = player
+      results.append(player)
         
     return results      
 
@@ -163,6 +165,14 @@ class YahooPGAScraper:
     
     return schedule
 
+  """
+  Accepts a list of dicts and writes it as csv into the csvfile
+  """
+  def write_csv_to_file(self, data, csvfile):
+    if type(data) != dict:
+      return False
+
+    
 
   """
   Accepts a dict and writes it is as json into the outfile

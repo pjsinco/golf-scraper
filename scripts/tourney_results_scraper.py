@@ -1,5 +1,7 @@
 import yahoo_scrape as ys
+import sys
 import json
+import csv
 import time
 from pprint import pprint
 
@@ -7,14 +9,28 @@ def main():
   scraper = ys.YahooPGAScraper()
   
   #get results for all 1978 tournaments
-  infile = open('../data/tournaments-yahoo/tourn-1981.json')
+  infile = open('../data/tournaments-yahoo/tourn-1977.json')
   data = json.load(infile)
+
   for key in data.keys():
-    outfile = open(
-      '/Users/pj/Sites/golf-scraper/data/tourn-1981/tourn-1981-' + key + '.json', 'w+')
-    results = scraper.get_tourn_results('1981', key)
-    scraper.write_json_to_file(results, outfile)
-    time.sleep(1)
+    results = scraper.get_tourn_results('1977', key)
+    pprint(results)
+
+    if results:
+      with open(
+          '/Users/pj/Sites/golf-scraper/data/tourn-1977/tourn-1977-' + 
+          key + '.csv', 'w+'
+        ) as csv_file:
+        fieldnames = results[0].keys()
+        csv_writer = csv.DictWriter(csv_file, fieldnames)
+
+        # write header row
+        csv_writer.writerow(dict((fn, fn) for fn in fieldnames))
+
+        for row in results:
+          csv_writer.writerow(row)
+
+        time.sleep(1)
 
   #pprint(scraper.get_tourn_results('1978', '45')) # tricky
 
