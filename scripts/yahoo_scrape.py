@@ -4,7 +4,7 @@ import urllib2
 import re
 from pprint import pprint
 import json
-from sys import exit
+import sys
 import csv
 
 class YahooPGAScraper:
@@ -103,7 +103,22 @@ class YahooPGAScraper:
               .split(','))
         # we need to grab the player's id
         elif fields_avail[j] == 'Name':
-          player[fields_avail[j]] = unicode(fields[j].a.string).strip()
+
+          # fields[j].next is a string that's not part of the link;
+          # a playoff winner, denoted by '-x', is what we're 
+          # trying to capture
+          player[fields_avail[j]] = \
+            unicode(
+              ''.join(
+                (fields[j].next, fields[j].a.string)
+              )
+              .strip()
+              )
+
+
+          pprint(player[fields_avail[j]])
+          sys.exit()
+
           player[u'player_id'] = \
             unicode(fields[j].a['href'].split('/')[-1]) 
         else:

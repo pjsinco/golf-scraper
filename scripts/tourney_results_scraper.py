@@ -8,16 +8,16 @@ from pprint import pprint
 def main():
   scraper = ys.YahooPGAScraper()
   
-  #get results for all 1980 tournaments
-  infile = open('../data/tournaments-yahoo/tourn-1980.json')
+  #get results for all 2013 tournaments
+  infile = open('../data/tournaments-yahoo/tourn-2013.json')
   data = json.load(infile)
 
   for key in data.keys():
-    results = scraper.get_tourn_results('1980', key)
+    results = scraper.get_tourn_results('2013', key)
     pprint(results)
 
     with open(
-        '/Users/pj/Sites/golf-scraper/data/tourn-1980/tourn-1980-' + 
+        '/Users/pj/Sites/golf-scraper/data/tourn-2013/tourn-2013-' + 
         key + '.csv', 'w+'
       ) as csv_file:
 
@@ -29,7 +29,10 @@ def main():
       csv_writer = csv.DictWriter(csv_file, fieldnames)
 
       # write header row
-      csv_writer.writerow(dict((fn, fn) for fn in fieldnames))
+      try:
+        csv_writer.writerow(dict((fn, fn) for fn in fieldnames))
+      except UnicodeEncodeError:
+        pass
 
       for row in results:
         csv_writer.writerow(row)
