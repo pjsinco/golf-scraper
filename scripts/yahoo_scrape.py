@@ -91,7 +91,7 @@ class YahooPGAScraper:
     for i in range(0, len(rows)):
       player = {}
       fields = rows[i].find_all('td')
-      if len(fields) == 0: #this row is unusual
+      if len(fields) < 2: #this row is unusual; prolly don't need it
         continue
       for j in range(0, len(fields_avail)):
         # we need to clip the $ off the purse
@@ -101,6 +101,7 @@ class YahooPGAScraper:
               .strip()\
               .split('$')[-1]\
               .split(','))
+
         # we need to grab the player's id
         elif fields_avail[j] == 'Name':
 
@@ -114,15 +115,9 @@ class YahooPGAScraper:
               )
               .strip()
               )
-
-
-          pprint(player[fields_avail[j]])
-          sys.exit()
-
           player[u'player_id'] = \
             unicode(fields[j].a['href'].split('/')[-1]) 
         else:
-         
           player[fields_avail[j]] = unicode(fields[j].string).strip()
 
       results.append(player)
