@@ -115,8 +115,22 @@ class YahooPGAScraper:
               )
               .strip()
               )
-          player[u'player_id'] = \
-            unicode(fields[j].a['href'].split('/')[-1]) 
+
+          # in more recent years, player links 
+          # have 'scorecard' in their path
+          player_link_elems = fields[j].a['href'].split('/')
+          if 'scorecard' in player_link_elems:
+            # in links with 'scorecard', we want the index just 
+            # before 'scorecard'
+            index = None
+            for i in range(0, len(player_link_elems)):
+              if player_link_elems[i] == 'scorecard':
+                index = i
+            player[u'player_id'] = player_link_elems[index - 1]
+          else:
+            player[u'player_id'] = \
+              unicode(fields[j].a['href'].split('/')[-1]) 
+      
         else:
           player[fields_avail[j]] = unicode(fields[j].string).strip()
 

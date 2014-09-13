@@ -13,8 +13,12 @@ def main():
   data = json.load(infile)
 
   for key in data.keys():
+
+    # key may be null, like in 2013 for the canceled Viking Classic
+    if key == 'null':
+      continue
+
     results = scraper.get_tourn_results('2013', key)
-    pprint(results)
 
     with open(
         '/Users/pj/Sites/golf-scraper/data/tourn-2013/tourn-2013-' + 
