@@ -8,20 +8,20 @@ from pprint import pprint
 def main():
   scraper = ys.YahooPGAScraper()
   
-  #get results for all 2013 tournaments
-  infile = open('../data/tournaments-yahoo/tourn-2013.json')
+  #get results for all 2014 tournaments
+  infile = open('../data/tournaments-yahoo/tourn-2014.json')
   data = json.load(infile)
 
   for key in data.keys():
 
-    # key may be null, like in 2013 for the canceled Viking Classic
+    # key may be null, like in 2013(?) for the canceled Viking Classic
     if key == 'null':
       continue
 
-    results = scraper.get_tourn_results('2013', key)
+    results = scraper.get_tourn_results('2014', key)
 
     with open(
-        '/Users/pj/Sites/golf-scraper/data/tourn-2013/tourn-2013-' + 
+        '/Users/pj/Sites/golf-scraper/data/tourn-2014/tourn-2014-' + 
         key + '.csv', 'w+'
       ) as csv_file:
 
